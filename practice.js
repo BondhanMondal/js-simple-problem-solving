@@ -74,4 +74,6 @@ function addThreeNumber(num1, num2, num3){
     return total;
 }
 const addition = addThreeNumber(5,5,5);
-console.log('Addition: ',addition);
+// console.log('Addition: ',addition);
+
+//8.
