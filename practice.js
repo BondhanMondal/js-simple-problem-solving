@@ -50,4 +50,28 @@ function getInterest(initialBalance, interestRate, year){
 }
 
 const myInterest = getInterest(10000, 5, 10);
-console.log('My Interest: ', myInterest);
+// console.log('My Interest: ', myInterest);
+
+//5. 1 to 100 print
+
+// for (let i = 1; i <= 100; i++){
+//     console.log(i);
+// }
+
+
+//6. odd numbers between 50 to 80
+
+// for(let i = 50; i <= 80; i++){
+//     if (i % 2 != 0){
+//         console.log(i);
+//     }
+// }
+
+//7. function for adding three number
+
+function addThreeNumber(num1, num2, num3){
+    let total = num1 + num2 + num3;
+    return total;
+}
+const addition = addThreeNumber(5,5,5);
+console.log('Addition: ',addition);
