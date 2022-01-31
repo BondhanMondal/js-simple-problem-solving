@@ -76,4 +76,39 @@ function addThreeNumber(num1, num2, num3){
 const addition = addThreeNumber(5,5,5);
 // console.log('Addition: ',addition);
 
-//8.
+//8. Leap Year Check
+
+function isLeapYear(year){
+    if ((year % 4 == 0) && (year % 100 != 0)){
+        console.log('Leap Year');
+    }
+    else{
+        console.log('Not Leap Year');
+    }
+    
+}
+
+// isLeapYear(2100);
+
+//9. Odd Even Check
+
+function isOddEven(age){
+    if (age % 2 == 0){
+        console.log('Your Age is Even Number');
+    }
+    else{
+        console.log('Your Age is odd number');
+    }
+}
+
+// isOddEven(101);
+
+//10. Hour To minute
+
+function hourToMinute(hour){
+    let minute = hour * 60;
+    return minute;
+}
+
+const myMinute = hourToMinute(4);
+console.log(myMinute);
