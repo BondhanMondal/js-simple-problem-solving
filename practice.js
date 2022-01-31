@@ -40,4 +40,14 @@ function getGrade(marks){
     }
 }
 
-const myGrade = getGrade(49);
+// const myGrade = getGrade(49);
+
+//4. Simple Interest Calculation
+
+function getInterest(initialBalance, interestRate, year){
+    let finalAmount = initialBalance * (1 + ((interestRate/100) * year));
+    return finalAmount;
+}
+
+const myInterest = getInterest(10000, 5, 10);
+console.log('My Interest: ', myInterest);
